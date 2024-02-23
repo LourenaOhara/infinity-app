@@ -10,23 +10,40 @@ const FitnessCards = () => {
     <View>
       {FitnessData.map((item, key) => (
         <Pressable
-        onPress={() => navigation.navigate("Workout",{
-          image:item.image,
-          excercises:item.excersises,
-          id:item.id
-        }
-        )}
+          onPress={() =>
+            navigation.navigate("Workout", {
+              image: item.image,
+              excercises: item.excersises,
+              id: item.id,
+            })
+          }
           style={{ alignItems: "center", justifyContent: "center", margin: 10 }}
           key={key}
         >
           <Image
             style={{ width: "95%", height: 180, borderRadius: 7 }}
-            source={{ uri: item.image }}
+            source={item.image}
           />
-          <Text style={{position:"absolute",color:"white",fontSize:16,fontWeight:"bold",left:20,top:20}}>{item.name}</Text>
+          <Text
+            style={{
+              position: "absolute",
+              color: "white",
+              fontSize: 16,
+              fontWeight: "bold",
+              left: 20,
+              top: 20,
+            }}
+          >
+            {item.name}
+          </Text>
           <MaterialCommunityIcons
-            style={{ position: "absolute", color: "white", bottom: 15,left:20 }}
-            name="lightning-bolt"
+            style={{
+              position: "absolute",
+              color: "white",
+              bottom: 15,
+              left: 20,
+            }}
+            name="weight-lifter"
             size={24}
             color="black"
           />
