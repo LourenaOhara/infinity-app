@@ -1,25 +1,23 @@
 export default [
-    {
-      id: "0",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEM-6gDUO7g1cdrNhBaqk_0nwxy6ILlIqsQ&usqp=CAU",
-      name: "FULL BODY",
-      description: "7x4 CHALLENGE",
-      excersises: [
+  {
+    id: "0",
+    image: require("../images/treino.jpg"),
+    name: "TREINOS",
+    description: "7x4 CHALLENGE",
+    excersises: [
         {
           id: "10",
-          image:
-            "https://sworkit.com/wp-content/uploads/2020/06/sworkit-jumping-jack.gif",
+          video: "https://youtu.be/SUFGOPSpjwk?si=6cfbCQWABUginvLz",
           name: "JUMPING JACKS",
-          sets:12,
+          //sets:12,
         },
         {
-            id:"11",
-            image:"https://177d01fbswx3jjl1t20gdr8j-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/Incline-Push-Up.gif",
-            name:"INCLINE PUSH-UPS",
-            sets:10,
+          id: "11",
+          video: "https://youtu.be/nZruKhOaawA?si=Q38xOZjX_KADN5eP",
+          name: "JUMPING JACKS",
+          //sets:12,
         },
-        {
+        /*{
             id:"12",
             image:"https://media.self.com/photos/583c641ca8746f6e65a60c7e/master/w_1600%2Cc_limit/DIAMOND_PUSHUP_MOTIFIED.gif",
             name:"INCLINED PUSH-UPS",
@@ -42,16 +40,15 @@ export default [
             image:"https://www.vissco.com/wp-content/uploads/animation/sub/double-knee-to-chest-stretch.gif",
             name:"CHEST STRETCH",
             sets:10,
-        }
+        }*/
       ],
-    },
-    {
-      id: "1",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonpSjpGQ2-JD8-XFFD7LYsVSFCOiASj0wSOq1qxNvxGFHe7W6AU1LRAeJ2fOIzYICMGc&usqp=CAU",
-      name: "ABS BEGINNER",
-      description: "7x4 CHALLENGE",
-      excersises : [
+  },
+  {
+    id: "1",
+    image: require("../images/bonus.jpg"),
+    name: "TREINOS BÔNUS",
+    description: "7x4 CHALLENGE",
+    /*excersises : [
         {
           id:"90",
           image:"https://media1.popsugar-assets.com/files/thumbor/f2sbzQY1h1zqiGEV9Mhr1IAcFMU/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/03/13/796/n/1922729/19cf2a4428446429_EXAMPLE.crossjacks.gif",
@@ -82,15 +79,14 @@ export default [
           name:"LEG RAISES",
           sets:14,
         }
-      ]
-    },
-    {
-      id: "2",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1NHvoutGn-Vr_uwVbOOtezhENvx9jhV6pfQ&usqp=CAU",
-      name: "ARM BEGINNER",
-      description: "7x4 CHALLENGE",
-      excersises:[
+      ]*/
+  },
+  {
+    id: "2",
+    image: require("../images/avaliacoes.jpg"),
+    name: "AVALIAÇÕES",
+    description: "7x4 CHALLENGE",
+    /*excersises:[
         {
           id:"70",
           image:"https://post.healthline.com/wp-content/uploads/2020/06/400x400_How_to_do_Zac_Efrons_Baywatch_Workout_Dumbbell_Lateral_Raise.gif",
@@ -134,15 +130,14 @@ export default [
           name:"TRICEP LIFT",
           sets:8,
         }
-      ]
-    },
-    {
-      id: "3",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqCT0tewpNAZ6R9JUoMDHIHGnpE44U2Fl1Zw&usqp=CAU",
-      name: "CHEST BEGINNER",
-      description: "7x4 CHALLENGE",
-      excersises: [
+      ]*/
+  },
+  {
+    id: "3",
+    image: require("../images/progresso.jpg"),
+    name: "PROGRESSO",
+    description: "7x4 CHALLENGE",
+    /*excersises: [
         {
           id:"20",
           image:"https://i.pinimg.com/originals/ff/cf/40/ffcf40474f0758dfedebc823f5532aa1.gif",
@@ -179,6 +174,12 @@ export default [
           name:"BURPEES",
           sets:10
         }
-      ]
-    },
-  ];
+      ]*/
+  },
+  {
+    id: "4",
+    image: require("../images/arquivo.jpg"),
+    name: "ARQUIVOS",
+    description: "7x4 CHALLENGE",
+  },
+];
